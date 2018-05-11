@@ -19,7 +19,7 @@ def send(msg, s):
     print("Sent message " + msg)
     s.send(buf)    
 
-if __name__ == '__main__':
+if __name__ == '__bluetooth__':
     mac = '00:16:53:0D:C9:E7'
     serverMACAddress = mac
     port = 1
